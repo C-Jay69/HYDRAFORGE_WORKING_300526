@@ -102,7 +102,7 @@ deductions:
       description: "Closing Date not defined"
       severity: "low"
     multiple_definitions_missing:
-      threshold: 3           # trigger when this many defs are absent
+      threshold: 3
       additional_deduction: 5  # extra penalty on top of per-item deductions
 
   boilerplate:
